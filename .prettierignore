@@ -1,0 +1,2 @@
+# Ignore generated tailwind css:
+src/css/tailwind.css

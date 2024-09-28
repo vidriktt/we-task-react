@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #111317;
+	background-color: #111317;
+	background-image: repeating-linear-gradient(
+		90deg,
+		#2b303a,
+		#2b303a 1px,
+		transparent 0,
+		transparent
+	);
+	background-size: calc(var(--vw, 1vw) * 8.33333) 100%;
+}
+
+a,
+button {
+	transition: all 150ms ease;
+}
+
+input,
+textarea {
+	border: 1px solid #e5e7eb;
+	-webkit-transition: 150ms;
+	transition: 150ms;
+	outline: none;
+}
+
+input:focus,
+textarea:focus {
+	border: 1px solid #e1261c;
+	box-shadow: 0 0 4px #e1261c;
+}
+
+input:disabled,
+textarea:disabled {
+	border: 1px solid transparent;
+	background: transparent;
+}
+
+textarea:disabled {
+	resize: none;
+}
+
+::-moz-selection {
+	color: #e1261c;
+	background: #111317;
+}
+
+::selection {
+	color: #e1261c;
+	background: #111317;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
