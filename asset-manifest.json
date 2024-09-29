@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/we-task-react/static/css/main.19b3cd0d.css",
-    "main.js": "/we-task-react/static/js/main.517c0181.js",
+    "main.js": "/we-task-react/static/js/main.dec610e4.js",
     "index.html": "/we-task-react/index.html",
     "main.19b3cd0d.css.map": "/we-task-react/static/css/main.19b3cd0d.css.map",
-    "main.517c0181.js.map": "/we-task-react/static/js/main.517c0181.js.map"
+    "main.dec610e4.js.map": "/we-task-react/static/js/main.dec610e4.js.map"
   },
   "entrypoints": [
     "static/css/main.19b3cd0d.css",
-    "static/js/main.517c0181.js"
+    "static/js/main.dec610e4.js"
   ]
 }
