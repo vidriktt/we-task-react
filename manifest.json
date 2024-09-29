@@ -1,0 +1,14 @@
+{
+	"short_name": "WE Task",
+	"name": "Test task for WE in React",
+	"icons": [
+		{
+			"src": "user-icon.png",
+			"type": "image/png"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#111317",
+	"background_color": "#111317"
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/we-task-react/static/css/main.19b3cd0d.css",
+    "main.js": "/we-task-react/static/js/main.5077ce4b.js",
+    "index.html": "/we-task-react/index.html",
+    "main.19b3cd0d.css.map": "/we-task-react/static/css/main.19b3cd0d.css.map",
+    "main.5077ce4b.js.map": "/we-task-react/static/js/main.5077ce4b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19b3cd0d.css",
+    "static/js/main.5077ce4b.js"
+  ]
+}
