@@ -42,6 +42,10 @@ const UserDetails = () => {
 		}
 	}, [userId, storedUsers]);
 
+	useEffect(() => {
+		document.title = user?.name ? `WE User - ${user.name}` : 'WE User';
+	}, [user]);
+
 	const saveUserData = () => {
 		const updatedData = {
 			...user,
@@ -156,6 +160,7 @@ const UserDetails = () => {
 
 	return (
 		<div className="container max-w-3xl mx-auto mt-20">
+			<title>WE User - {user?.name}</title>
 			<header className="pl-16 text-white">
 				<h1 className="text-2xl font-bold">User details</h1>
 				<Link className="text-sm hover:text-[#e1261c]" to={'/'}>

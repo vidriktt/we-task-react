@@ -34,6 +34,8 @@ const Users = () => {
 					setLoading(false);
 				});
 		}
+
+		document.title = 'WE Users';
 	}, []);
 
 	const filteredUsers = users.filter(
