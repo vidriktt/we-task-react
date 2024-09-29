@@ -4,7 +4,7 @@ import UserDetails from './UserDetails';
 
 function App() {
 	return (
-		<Router>
+		<Router basename="/we-task-react">
 			<div className="App">
 				<Routes>
 					<Route path="/" element={<Users />} />

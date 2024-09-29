@@ -1,9 +1,12 @@
 {
 	"name": "we-task-react",
 	"version": "1.0.0",
+	"homepage": "https://vidriktt.github.io/we-task-react",
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"lint": "eslint .",
 		"prettier": "prettier --write '**/*.{js,json,css,html}'"
 	},
@@ -37,6 +40,7 @@
 		"@eslint/js": "^9.11.1",
 		"eslint": "^8.57.1",
 		"eslint-plugin-react": "^7.37.0",
+		"gh-pages": "^6.1.1",
 		"globals": "^15.9.0",
 		"prettier": "^3.3.3",
 		"tailwindcss": "^3.4.13"

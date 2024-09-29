@@ -42,6 +42,11 @@ It also includes tools for formatting code with Prettier & ESLint for styling an
   npm run build
    ```
 
+- **Deploy** - Deploy the app to GitHub Pages:
+   ```bash
+  npm run deploy
+   ```
+
 - **Lint** - Lint the project using ESLint:
    ```bash
   npm run lint
@@ -62,6 +67,7 @@ It also includes tools for formatting code with Prettier & ESLint for styling an
 - **Tailwind CSS** - Utility-first CSS framework.
 - **ESLint** - JavaScript linter.
 - **Prettier** - Code formatter.
+- **gh-pages** - GitHub Pages deployment tool.
 
 ---
 
