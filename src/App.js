@@ -1,10 +1,10 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Users from './Users';
 import UserDetails from './UserDetails';
 
 function App() {
 	return (
-		<Router basename="/we-task-react">
+		<Router>
 			<div className="App">
 				<Routes>
 					<Route path="/" element={<Users />} />
